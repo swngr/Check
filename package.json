@@ -1,0 +1,44 @@
+{
+  "name": "automation-ui-testing",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "ios.local": "wdio ./config/wdio.ios.conf.js",
+    "ios.sauce.us": "wdio ./config/saucelabs/wdio.ios.sauce.conf.js",
+    "web.local": "wdio ./config/wdio.web.conf.js",
+    "web.sauce.us": "wdio ./config/saucelabs/wdio.web.sauce.conf.js",
+    "lint": "prettier --ignore-path .gitignore --check . && eslint --ignore-path .gitignore .",
+    "format": "prettier --ignore-path .gitignore --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.internal.tulip.io:qa/automation-ui-testing.git"
+  },
+  "author": "Tulip QA team",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.19.6",
+    "@babel/eslint-parser": "^7.19.1",
+    "@babel/preset-env": "^7.19.4",
+    "@babel/register": "^7.18.9",
+    "@cucumber/cucumber": "^8.7.0",
+    "@wdio/appium-service": "^7.25.4",
+    "@wdio/cli": "^7.25.4",
+    "@wdio/cucumber-framework": "^7.25.4",
+    "@wdio/local-runner": "^7.25.4",
+    "@wdio/sauce-service": "^7.25.4",
+    "@wdio/spec-reporter": "^7.25.4",
+    "appium": "^1.22.3",
+    "authenticator": "^1.1.5",
+    "chromedriver": "^107.0.2",
+    "dotenv": "^16.0.3",
+    "eslint": "^8.26.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-wdio": "^7.25.3",
+    "multiple-cucumber-html-reporter": "^3.0.1",
+    "prettier": "^2.7.1",
+    "wdio-chromedriver-service": "^8.0.0",
+    "wdio-cucumberjs-json-reporter": "^4.4.3"
+  }
+}
