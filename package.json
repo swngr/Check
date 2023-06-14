@@ -14,7 +14,7 @@
     "type": "git",
     "url": "git@git.internal.tulip.io:qa/automation-ui-testing.git"
   },
-  "author": "Tulip QA team",
+  "author": "xxx QA team",
   "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.19.3",
