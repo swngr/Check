@@ -6,7 +6,7 @@ class LoadPage {
   }
 
   get welcomeMessage() {
-    return $("~Welcome to Tulip");
+    return $("~Welcome to Tl");
   }
 
   get cancelButton() {

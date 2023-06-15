@@ -1,8 +1,8 @@
 class productCartItemPage {
   discountedItemPriceSelector =
-    '**/XCUIElementTypeCell[`name == "io.tulip.test.ui.checkout.cart.item.cell"`]/XCUIElementTypeStaticText[6]';
+    '**/XCUIElementTypeCell[`name == "io.tl.test.ui.checkout.cart.item.cell"`]/XCUIElementTypeStaticText[6]';
   originalItemPriceSelector = '**/XCUIElementTypeStaticText[`name == "aeProductPrice"`][2]';
-  '**/XCUIElementTypeCell[`name == "io.tulip.test.ui.checkout.cart.item.cell"`]/XCUIElementTypeStaticText[4]';
+  '**/XCUIElementTypeCell[`name == "io.tl.test.ui.checkout.cart.item.cell"`]/XCUIElementTypeStaticText[4]';
   doneButtonSelector = '**/XCUIElementTypeButton[`label == "Done"`]';
   discountLineSelector = '**/XCUIElementTypeCell[`name contains "aeCartItemInStore"`]';
 

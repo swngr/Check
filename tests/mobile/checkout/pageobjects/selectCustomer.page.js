@@ -1,6 +1,6 @@
 class SelectCustomerPage {
   customerFromListSelector =
-    '**/XCUIElementTypeCell[`name CONTAINS "io.tulip.sat.customers.cell"`][1]';
+    '**/XCUIElementTypeCell[`name CONTAINS "io.tl.sat.customers.cell"`][1]';
   itemInMiniCartSelector = '**/XCUIElementTypeStaticText[`name CONTAINS "aeProductTitle"`]';
 
   get selectCustomerFromList() {
@@ -12,7 +12,7 @@ class SelectCustomerPage {
   }
 
   get searchCustomerField() {
-    return $("~io.tulip.sat.customers.search");
+    return $("~io.tl.sat.customers.search");
   }
 
   async inputCustomerInfo(customer) {

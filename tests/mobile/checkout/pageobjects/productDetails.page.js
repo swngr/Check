@@ -1,6 +1,6 @@
 class ProducDetailsPage {
   ProdDetailsItemNameSelector =
-    '**/XCUIElementTypeTable[`name CONTAINS "com.tulip.catalog+product_details"`]/**/XCUIElementTypeButton';
+    '**/XCUIElementTypeTable[`name CONTAINS "com.tl.catalog+product_details"`]/**/XCUIElementTypeButton';
 
   get prodDetailsItemName() {
     return $(`-ios class chain:${this.ProdDetailsItemNameSelector}`);

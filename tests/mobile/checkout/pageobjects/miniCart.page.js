@@ -11,11 +11,11 @@ class MiniCartPage {
   }
 
   get checkOutButton() {
-    return $("~com.tulip.checkout+mini_cart#continue_checkout_action");
+    return $("~com.tl.checkout+mini_cart#continue_checkout_action");
   }
 
   get dismissMiniCart() {
-    return $("~com.tulip.checkout+mini_cart#dismissal_handle");
+    return $("~com.tl.checkout+mini_cart#dismissal_handle");
   }
 
   get selectCustomerField() {
