@@ -60,7 +60,7 @@ To run the web tests use: `npm run web.local`
 
 ## Remote usage on SauceLabs
 
-1. Create an account on SauceLabs (contact QA to receive invite).
+1. Create an account on SauceLabs (contact QA lead/ Manager to receive invite).
 2. Grab your Username and Access Key(found on your user settings or the Key Button at the top bar).
 3. Export your credentials in your `.env` file:
 
