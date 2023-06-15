@@ -6,10 +6,10 @@
 
    ```
    cd ~/workspace
-   git clone git@git.internal.tlp.io:qa/automation-ui-testing.git
+   git clone git@git.internal.tl.io:qa/automation-ui-testing.git
    ```
 
-   > If you see ssh key error follow <a href="https://tlpretail.visualstudio.com/Tlp/_wiki/wikis/Tlp.wiki/863/Tlp-Quick-Start"> this Document</a>
+   > If you see ssh key error follow <a href="https://tlretail.visualstudio.com/Tlp/_wiki/wikis/Tlp.wiki/863/Tlp-Quick-Start"> this Document</a>
 
 2. Install [Homebrew](https://brew.sh/) if it's not already installed.
 
@@ -60,7 +60,7 @@ To run the web tests use: `npm run web.local`
 
 ## Remote usage on SauceLabs
 
-1. Create an account on SauceLabs (contact QA/Leandro or QA/Sunimal to receive invite).
+1. Create an account on SauceLabs (contact QA to receive invite).
 2. Grab your Username and Access Key(found on your user settings or the Key Button at the top bar).
 3. Export your credentials in your `.env` file:
 
