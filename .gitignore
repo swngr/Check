@@ -1,0 +1,19 @@
+# Local
+variable*.sh
+
+# node.js
+#
+node_modules/
+npm-debug.log
+
+# Misc
+*~
+*#
+*.log
+.tmp
+.DS_Store
+.idea
+apps/
+build
+output
+reports
